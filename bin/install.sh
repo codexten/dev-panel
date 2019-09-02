@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
+. ~/.dev-panel/bin/bootstrap.sh
 
-ln -s ~/.dev-panel/bin/dp.sh ~/.codexten/bin/dp
-chmod +x ~/.codexten/bin/dp
+set_global_executable "$HOME/.dev-panel/bin/dp" 'dp'
