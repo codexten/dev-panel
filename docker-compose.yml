@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  php73:
+    image: codexten-local/php7.3-fpm
+    container_name: dp_php73
+    volumes:
+      - ${DP_APPS_DIR}:/apps
