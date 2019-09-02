@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   php73:
-    image: codexten-dev-panel/php:7.3-dev-cli
+    image: codextendevpanel/php:7.3-dev-cli
     container_name: dp_php73
     volumes:
       - ${DP_APPS_DIR}:/apps
