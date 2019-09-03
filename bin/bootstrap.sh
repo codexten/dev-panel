@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
-. ~/.de/bin/bootstrap
+. $HOME/.de/bin/bootstrap
 
-$dpDir=$HOME/.dev-panel
+dpDir=$HOME/.dev-panel
